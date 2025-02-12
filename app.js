@@ -31,7 +31,7 @@ async function obterInfo() {
     await page.goto('https://sati-front.apps.ham.org.br');
 
     await preencherCampo(page, '#username', 'THALLYS.MOURA');
-    await preencherCampo(page, '#password', 'hospital@123');
+    await preencherCampo(page, '#password', 'senha');
     await clicarElemento(page, '#btn-login');
 
     await page.waitForTimeout(1000);
